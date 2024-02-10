@@ -182,7 +182,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:inputType="text"
-                    android:text="Leslie Alexander"
+                    android:hint="Leslie Alexander"
                     android:background="@drawable/round"
                     android:paddingLeft="10dp"
                     android:textSize="15dp"
@@ -207,10 +207,12 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:background="@drawable/round"
-                    android:inputType="text"
+                    android:inputType="number"
                     android:paddingLeft="10dp"
-                    android:text="2413 3581 9503 2412"
+                    android:hint="2413 3581 9503 2412"
                     android:textSize="15dp"
+                    android:digits="0123456789 "
+                    android:maxLength="19"
                     android:fontFamily="sans-serif-condensed-light"/>
             </LinearLayout>
 
@@ -240,9 +242,11 @@
                         android:layout_height="fill_parent"
                         android:layout_weight="1"
                         android:background="@drawable/round"
-                        android:inputType="text"
+                        android:inputType="number"
                         android:paddingLeft="10dp"
-                        android:text="12/24"
+                        android:hint="12/24"
+                        android:digits="012345689/"
+                        android:maxLength="5"
                         android:textSize="15dp"
                         android:fontFamily="sans-serif-condensed-light"/>
                 </LinearLayout>
@@ -273,10 +277,12 @@
                         android:layout_weight="1"
                         android:background="@drawable/round"
                         android:ems="10"
-                        android:inputType="text"
+                        android:inputType="number"
                         android:paddingLeft="10dp"
-                        android:text="234"
+                        android:hint="234"
                         android:textSize="15dp"
+                        android:digits="0123456789"
+                        android:maxLength="3"
                         android:fontFamily="sans-serif-condensed-light"/>
                 </LinearLayout>
             </LinearLayout>
